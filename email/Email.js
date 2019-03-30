@@ -2,7 +2,8 @@ var mongoose = require('mongoose');
 var EmailSchema = new mongoose.Schema({
     to: String,
     content: String,
-    subject: String
+    subject: String,
+    status: String
 }, {
     timestamps: true
 });

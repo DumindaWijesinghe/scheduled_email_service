@@ -3,4 +3,6 @@ node_modules
 npm-debug.log
 .serverless
 variables.env
-.env
+# should not commit .env to public repository
+# if it contains confidential info 
+#.env
